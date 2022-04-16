@@ -4,7 +4,7 @@
    background: #343435;
    padding: 15px 0 15px 25px;
    display: flex;
-   width: 90%;
+   width: 98%;
    margin-top: 10px;
 }
 @media screen and (max-width: 1000px){
@@ -14,9 +14,7 @@
 
 }
 @media screen and (max-width: 596px){
-   .item{
-      width: 98%;
-   }
+
 }
 @media screen and (max-width: 420px){
    .item{
