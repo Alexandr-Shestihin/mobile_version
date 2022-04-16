@@ -4,7 +4,6 @@
    background: #343435;
    padding: 15px 0 15px 25px;
    display: flex;
-   width: 98%;
    margin-top: 10px;
 }
 @media screen and (max-width: 1000px){
