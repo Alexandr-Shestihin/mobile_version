@@ -1,0 +1,10 @@
+.MainBlock{
+   height: 100%;
+   width: 100%;
+   flex: 1 1 auto;
+   font-size: 18px;
+   font-style: italic;
+   overflow: auto;
+   padding-left: 15px;
+   margin: 0 auto;
+}

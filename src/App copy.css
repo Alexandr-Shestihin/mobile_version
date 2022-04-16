@@ -1,0 +1,72 @@
+body{
+  height: 100vh;
+}
+.App {
+  background: #262626;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+}
+.mainContainer{
+   margin: 0 auto;
+   width: 1000px;
+}
+@media screen and (max-width: 1642px){
+	
+}
+@media screen and (max-width: 1360px){
+	
+}
+@media screen and (max-width: 1360px){
+	
+}
+@media screen and (max-width: 992px){
+   .mainContainer{
+      max-width: 800px;
+      width: 100%;
+   }		
+}
+@media screen and (max-width: 810px){
+   .mainContainer{
+      width: 780px;
+   }		
+}
+@media screen and (max-width: 767px){
+   .mainContainer{
+      width: 580px;
+   }			
+}
+@media screen and (max-width: 590px){
+   .mainContainer{
+      width: 480px;
+   }			
+}
+@media screen and (max-width: 490px){
+	.mainContainer{
+      width: 380px;
+   }		
+}
+@media screen and (max-width: 390px){
+	.mainContainer{
+      width: 280px;
+   }		
+}
+::-webkit-scrollbar{
+   width: 15px;
+}
+::-webkit-scrollbar-track{
+   background: #444444;
+   box-shadow: 0px 0px 3px #060606 inset;
+}
+::-webkit-scrollbar-thumb{
+   background: #EF5236;
+   border-radius: 10px;
+   border: 4px solid #444444;
+}
+::-webkit-scrollbar-thumb:hover{
+   background: linear-gradient(#F7A01D, #EF5236) ;
+   border-radius: 10px;
+   border: 4px solid #444444;
+}

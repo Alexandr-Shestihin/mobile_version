@@ -1,0 +1,80 @@
+.menu{
+   height: 60px;
+   background: #1C1C1C;
+}
+.menuContainer{
+   display: flex;
+   justify-content: space-around;
+   padding-top: 5px;
+   margin: 0 auto;
+}
+.imageMenu{
+   height: 40px;
+   width: 40px;
+   cursor: pointer;
+}
+/*  background: url("../../images/menu/whiteMenu.jpg") 6px 2px  no-repeat; */
+/* background-size: 249px 36px; */
+.home{
+   background: url("../../images/menu/whiteMenu.jpg") 5px -2px  no-repeat;
+   background-size: 289px 46px;
+}
+.home:hover{
+   background: url("../../images/menu/yellowMenu.png") 5px -2px  no-repeat;
+   background-size: 289px 46px;
+}
+.home:active{
+   background: url("../../images/menu/orangeMenu.png") 5px -2px  no-repeat;
+   background-size: 289px 46px;
+}
+
+.ranking{
+   background: url("../../images/menu/whiteMenu.jpg") -51px 2px  no-repeat;
+   background-size: 249px 36px;
+}
+.ranking:hover{
+   background: url("../../images/menu/yellowMenu.png") -51px 2px  no-repeat;
+   background-size: 249px 36px;
+}
+.ranking:active{
+   background: url("../../images/menu/orangeMenu.png") -51px 2px  no-repeat;
+   background-size: 249px 36px;
+}
+
+.calendar{
+   background: url("../../images/menu/whiteMenu.jpg") -108px 2px  no-repeat;
+   background-size: 249px 36px;
+}
+.calendar:hover{
+   background: url("../../images/menu/yellowMenu.png") -108px 2px  no-repeat;
+   background-size: 249px 36px;
+}
+.calendar:active{
+   background: url("../../images/menu/orangeMenu.png") -108px 2px  no-repeat;
+   background-size: 249px 36px;
+}
+
+.watch{
+   background: url("../../images/menu/whiteMenu.jpg") -161px 2px  no-repeat;
+   background-size: 249px 36px;
+}
+.watch:hover{
+   background: url("../../images/menu/yellowMenu.png") -161px 2px  no-repeat;
+   background-size: 249px 36px;
+}
+.watch:active{
+   background: url("../../images/menu/orangeMenu.png") -161px 2px  no-repeat;
+   background-size: 249px 36px;
+}
+.more{
+   background: url("../../images/menu/whiteMenu.jpg") -215px 2px  no-repeat;
+   background-size: 249px 36px;
+}
+.more:hover{
+   background: url("../../images/menu/yellowMenu.png") -215px 2px  no-repeat;
+   background-size: 249px 36px;
+}
+.more:active{
+   background: url("../../images/menu/orangeMenu.png") -215px 2px  no-repeat;
+   background-size: 249px 36px;
+}
