@@ -19,18 +19,15 @@ const Item = (props) => {
    })
 
    return (
-      <div className={s.MainBlock} >
-         <div className={props.id === 1 ?
-            `${s.item} ${s.item_one}` : s.item}
-         >
-            <div className={triangle}></div>
-            <div className={s.flag}>
-               <img src={props.image} alt="" />
-            </div>
-
-            <p className={s.text}>{props.text}</p>
+      <div className={props.id === 1 ?
+         `${s.item} ${s.item_one}` : s.item}
+      >
+         <div className={triangle}></div>
+         <div className={s.flag}>
+            <img src={props.image} alt="" />
          </div>
 
+         <p className={s.text}>{props.text}</p>
       </div>
    )
 }

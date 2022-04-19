@@ -1,40 +1,96 @@
-
 .header{
-   height: 60px;
+   position: relative;
+   height: 76px;
    width: 100%;
    display: flex;
    justify-content: center;
+   background: #262626;
    border-bottom: 1px solid rgba(255, 255, 255, 0.589);
-   box-shadow: 0px 0px 200px rgb(1, 1, 1);
 }
+.shadowContainer{
+   position: absolute;
+   top: -10px;
+   left: 50%;
+   margin-left: -29%;
+   width: 60%;
+   height: 70px;
+   background: #000;
+   border-radius: 50%;
+   box-shadow: 0px 40px 20px -10px rgba(3, 3, 3, 0.6);
+}
+
+
 .headerContainer{
    display: flex;
-   justify-content:space-around;
+   justify-content:space-between;
    align-items: center;
    height: 100%;
 }
 .logo{
-   width: 40px;
+   height: 34px;
    overflow: hidden;
 }
 .notification{
    overflow: hidden;
-   width: 30px;
+   height: 28px;
 }
 img{
    height: 100%;
    width: 100%;
    cursor: pointer;
 }
-input{
-   display: block;
-   height: 30px;
+.inputContainer{
+   position: relative;
+   box-sizing: border-box;
+   height: 34px;
    width: 50%;
    border-radius: 25px;
    border: 1.4px solid #E75035;
-   background: url('../../images/search.jpg') no-repeat 98% 3px, #444444;
-   background-size: auto 80%;
-   padding: 10px;
+   background:#444444;
    color: white;
    cursor: pointer;
 }
+input{
+   position: absolute;
+   top: 0;
+   left: 0;
+   line-height: 34;
+   width: 95%;
+   height: 100%;
+   background: transparent;
+   color: inherit;
+   font-style: inherit;
+   font-size: inherit;
+   padding-left: 10px;
+
+}
+@media screen and (max-width: 1370px){
+   input{
+      width: 92%;
+   }
+}
+@media screen and (max-width: 975px){
+   input{
+      width: 89%;
+   }
+}
+@media screen and (max-width: 655px){
+   input{
+      width: 85%;
+   }
+}
+@media screen and (max-width: 400px){
+   input{
+      width: 80%;
+   }
+}
+.inputContainer:before {
+   content: '';
+   position: absolute;
+   background: url('../../images/search.jpg') no-repeat 100% 3px;
+   background-size: auto 80%;
+   width: 17px;
+   height: 15px;
+   right: 12px;
+   top: 7px;
+ }

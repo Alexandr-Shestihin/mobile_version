@@ -8,6 +8,7 @@ const Elements = (props) => {
          <h1>{props.itemName}</h1>
          {props.item.map(u =>
             <Item
+               className={s.item}
                key={u.id}
                id={u.id}
                color={u.color}

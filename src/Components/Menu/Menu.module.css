@@ -1,5 +1,5 @@
 .menu{
-   height: 60px;
+   height: 67px;
    background: #1C1C1C;
 }
 .menuContainer{
@@ -13,8 +13,7 @@
    width: 40px;
    cursor: pointer;
 }
-/*  background: url("../../images/menu/whiteMenu.jpg") 6px 2px  no-repeat; */
-/* background-size: 249px 36px; */
+
 .home{
    background: url("../../images/menu/whiteMenu.jpg") 5px -2px  no-repeat;
    background-size: 289px 46px;

@@ -6,25 +6,31 @@ import ContentContainer from '../../sampleComponents/ContentContainer/ContentCon
 
 const Header = (props) => {
    return (
-      <div className={s.header}>
+      <>
+         <div className={s.shadowContainer}></div>
+         <div className={s.header}>
+            {/* <div className={s.shadowContainer}></div> */}
+            <ContentContainer>
+               <div className={s.headerContainer}>
 
-         <ContentContainer>
-            <div className={s.headerContainer}>
+                  <div className={s.logo}>
+                     <img src={logo} alt="logo" />
+                  </div>
 
-               <div className={s.logo}>
-                  <img src={logo} alt="logo" />
+                  <div className={s.inputContainer}>
+                     <input className={s.inp} type="text" />
+                  </div>
+
+                  <div className={s.notification}>
+                     <img src={notification} alt="notification" />
+                  </div>
+
                </div>
+            </ContentContainer>
 
-               <input type="text" />
 
-               <div className={s.notification}>
-                  <img src={notification} alt="notification" />
-               </div>
-
-            </div>
-         </ContentContainer>
-
-      </div>
+         </div>
+      </>
    )
 }
 export default Header;

@@ -1,5 +1,22 @@
+@font-face {
+   font-family: 'Nexa';
+   src: url('./fonts/Nexa-BookItalic.eot');
+   src: local('★'), 
+   url('./fonts/Nexa-BookItalic.otf') format('otf'), 
+   url('./fonts/Nexa-BookItalic.woff2') format('woff2'), 
+   url('./fonts/Nexa-BookItalic.woff') format('woff'), 
+   url('./fonts/Nexa-BookItalic.svg') format('svg'),
+   url('./fonts/Nexa-BookItalic.ttf') format('truetype');
+   font-weight: bold;
+   font-style: italic;
+}
 body{
   height: 100vh;
+  color: white;
+  font-style: 19pt;
+  font-family: Nexa;
+  font-weight: bold;
+  font-style: italic;
 }
 .App {
   background: #262626;
@@ -7,9 +24,9 @@ body{
   display: flex;
   flex-direction: column;
   height: 100vh;
-  color: white;
 }
 ::-webkit-scrollbar{
+   display: none;
    width: 15px;
 }
 ::-webkit-scrollbar-track{

@@ -2,6 +2,7 @@
 .mainContainer{
    margin: 0 auto;
    width: 80%;
+   padding: 0;
 }
 @media screen and (max-width: 1642px){
 	
@@ -33,18 +34,20 @@
    }			
 }
 @media screen and (max-width: 597px){
-   .mainContainer{
-      width: 100%;
-      
-   }			
+   			
 }
 @media screen and (max-width: 510px){
 	.mainContainer{
       
    }		
 }
-@media screen and (max-width: 410px){
+@media screen and (max-width: 480px){
 	.mainContainer{
-      
+      max-width: 443px;
+   }		
+}
+@media screen and (max-width: 250px){
+	.mainContainer{
+      width: 100%;
    }		
 }
