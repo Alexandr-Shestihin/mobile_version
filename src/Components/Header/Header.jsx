@@ -7,9 +7,8 @@ import ContentContainer from '../../sampleComponents/ContentContainer/ContentCon
 const Header = (props) => {
    return (
       <>
-         <div className={s.shadowContainer}></div>
+         <div className={s.headerShadow}></div>
          <div className={s.header}>
-            {/* <div className={s.shadowContainer}></div> */}
             <ContentContainer>
                <div className={s.headerContainer}>
 
