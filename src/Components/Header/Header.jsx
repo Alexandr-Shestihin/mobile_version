@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Header.module.css';
-import logo from '../../images/Earth.jpg';
+import logo from '../../images/Earth.png';
 import notification from '../../images/bell.jpg'
 import ContentContainer from '../../sampleComponents/ContentContainer/ContentContainer';
 
